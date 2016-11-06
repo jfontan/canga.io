@@ -1,0 +1,95 @@
+baseurl = "https://canga.io/"
+languageCode = "en-us"
+title = "Cangallo!"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+pygmentsuseclasses = true
+PygmentsCodeFences = true
+
+[params]
+	# General information
+	author = "Javi Fontan"
+	description = "Virtual Machine image manager"
+	copyright = "Apache 2.0"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/jfontan/cangallo"
+
+	version = "0.0.3"
+	logo = "images/cangallo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "green"
+    	accent  = "indigo"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "thevaw"
+	github  = "jfontan"
+	email   = "jfontan@gmail.com"
+
+# [[menu.main]]
+# 	name   = "News"
+# 	url    = "/post"
+# 	weight = 0
+
+[[menu.main]]
+	name   = "Introduction"
+	url    = "/"
+	weight = 1
+
+[[menu.main]]
+	name   = "Installation"
+	url    = "/install/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Commands"
+	url    = "/commands/"
+	weight = 20
+
+# [[menu.main]]
+# 	name   = "Getting started"
+# 	url    = "getting-started/"
+# 	weight = 10
+
+# [[menu.main]]
+# 	name   = "Adding content"
+# 	url    = "adding-content/"
+# 	weight = 20
+
+# [[menu.main]]
+# 	name   = "Roadmap"
+# 	url    = "roadmap/"
+# 	weight = 30
+
+# [[menu.main]]
+# 	name   = "License"
+# 	url    = "license/"
+# 	weight = 40
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
