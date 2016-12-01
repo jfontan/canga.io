@@ -20,7 +20,7 @@ PygmentsCodeFences = true
 	provider = "GitHub"
 	repo_url = "https://github.com/jfontan/cangallo"
 
-	version = "0.0.3"
+	version = "0.0.5"
 	logo = "images/cangallo.png"
 	favicon = ""
 
