@@ -66,13 +66,13 @@ Commands:
 
 ## Usage and parameters
 
-Syntax: ```canga [PARAM] [COMMAND]```
+Syntax: `canga [PARAM] [COMMAND]`
 
 ### version
 --version or -V prints out the version number
 ### add
 The add parameter, adds a file to the canga repository
-If using the ```--copy``` parameter, the original image is copied instead
+If using the `--copy` parameter, the original image is copied instead
 of converting it. With this command the sha256 hash of
 the file does not change. This is useful to import images
 prepared by Linux distros. Check the "Adding an image to a repository" example below
