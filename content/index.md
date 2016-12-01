@@ -360,4 +360,7 @@ Contributors:
   * Dan Kelleher
   * Diego Nieto Caride
 
+Logo:
+
+  * [Jorge Fuentes](http://www.jorgefuentes.net/)
 
